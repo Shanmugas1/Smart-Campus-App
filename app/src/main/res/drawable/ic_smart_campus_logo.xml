@@ -1,0 +1,185 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circular Shield Glow -->
+    <path
+        android:pathData="M100,10A90,90 0 1,0 100,190A90,90 0 1,0 100,10Z"
+        android:strokeWidth="6"
+        android:strokeColor="#29B6F6"
+        android:fillColor="#0D47A1" />
+
+    <path
+        android:pathData="M100,16A84,84 0 1,0 100,184A84,84 0 1,0 100,16Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:endX="100"
+                android:endY="184"
+                android:startX="100"
+                android:startY="16"
+                android:type="linear">
+                <item android:color="#0288D1" android:offset="0.0" />
+                <item android:color="#01579B" android:offset="0.5" />
+                <item android:color="#0A192F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Circuit traces on the right -->
+    <path
+        android:pathData="M155,50 L168,50 L174,62 M160,70 L172,70 M145,85 L165,85"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4FC3F7"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M174,62m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#81D4FA" />
+    <path
+        android:pathData="M172,70m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#81D4FA" />
+
+    <!-- Role Badges on the Left -->
+    <!-- Student Avatar Badge (Blue) -->
+    <path
+        android:pathData="M42,56m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0"
+        android:fillColor="#0288D1"
+        android:strokeWidth="1.5"
+        android:strokeColor="#E1F5FE" />
+    <path
+        android:pathData="M42,50 L36,53 L42,56 L48,53 Z M38,54.5 V57 C38,58 40,59 42,59 C44,59 46,58 46,57 V54.5"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Faculty Avatar Badge (Orange) -->
+    <path
+        android:pathData="M38,76m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0"
+        android:fillColor="#F57C00"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFF3E0" />
+    <path
+        android:pathData="M38,70 A3,3 0 1,0 38,76 A3,3 0 1,0 38,70 Z M33,81 C33,78 35,77 38,77 C41,77 43,78 43,81"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Admin Avatar Badge (Green) -->
+    <path
+        android:pathData="M44,96m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0"
+        android:fillColor="#2E7D32"
+        android:strokeWidth="1.5"
+        android:strokeColor="#E8F5E9" />
+    <path
+        android:pathData="M44,90 A3,3 0 1,0 44,96 A3,3 0 1,0 44,90 Z M40,101 C40,98.5 42,97.5 44,97.5 C46,97.5 48,98.5 48,101"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Campus Building with Pillars on the Right -->
+    <path
+        android:pathData="M125,98 H165 V115 H125 Z"
+        android:fillColor="#1565C0" />
+    <!-- Pediment -->
+    <path
+        android:pathData="M122,98 L145,86 L168,98 Z"
+        android:fillColor="#1E88E5" />
+    <!-- Pillars -->
+    <path
+        android:pathData="M128,99 V113 M135,99 V113 M142,99 V113 M149,99 V113 M156,99 V113 M163,99 V113"
+        android:strokeWidth="2"
+        android:strokeColor="#E3F2FD" />
+    <!-- Clock Tower -->
+    <path
+        android:pathData="M140,78 H150 V86 H140 Z"
+        android:fillColor="#0D47A1" />
+    <path
+        android:pathData="M145,82m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#FFF9C4" />
+
+    <!-- Cloud Storage & Database Stack -->
+    <path
+        android:pathData="M152,72 C150,68 153,64 158,64 C161,64 163,66 164,68 C167,68 170,70 170,73 C170,76 167,78 164,78 H152 C149,78 147,76 147,73 C147,71 149,69 152,69"
+        android:fillColor="#E1F5FE"
+        android:strokeWidth="1.5"
+        android:strokeColor="#29B6F6" />
+    <path
+        android:pathData="M159,75 V68 M156,71 L159,68 L162,71"
+        android:strokeWidth="1.5"
+        android:strokeColor="#0288D1"
+        android:strokeLineCap="round" />
+
+    <!-- Center Smartphone Device -->
+    <path
+        android:pathData="M78,50 H122 A6,6 0 0,1 128,56 V132 A6,6 0 0,1 122,138 H78 A6,6 0 0,1 72,132 V56 A6,6 0 0,1 78,50 Z"
+        android:fillColor="#0A192F"
+        android:strokeWidth="3"
+        android:strokeColor="#81D4FA" />
+    <!-- Phone Screen -->
+    <path
+        android:pathData="M76,56 H124 V128 H76 Z"
+        android:fillColor="#F8FAFC" />
+    <!-- Notification Bell with Red Alert Dot -->
+    <path
+        android:pathData="M97,63 C97,60 103,60 103,63 C105,65 106,68 107,70 H93 C94,68 95,65 97,63 Z M98,72 C98,73 100,74 100,74 C100,74 102,73 102,72 Z"
+        android:fillColor="#0288D1" />
+    <!-- Red Alert Dot -->
+    <path
+        android:pathData="M106,62m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#E53935" />
+
+    <!-- Notification Mini Feed Cards on Phone Screen -->
+    <path
+        android:pathData="M80,76 H120 V84 H80 Z"
+        android:fillColor="#FFB300" />
+    <path
+        android:pathData="M80,88 H120 V96 H80 Z"
+        android:fillColor="#1E88E5" />
+    <path
+        android:pathData="M80,100 H120 V108 H80 Z"
+        android:fillColor="#43A047" />
+
+    <!-- Open Book at the Base -->
+    <!-- Left Page -->
+    <path
+        android:pathData="M40,140 C60,132 80,135 100,142 L100,154 C80,147 60,144 40,150 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B0BEC5" />
+    <!-- Right Page -->
+    <path
+        android:pathData="M100,142 C120,135 140,132 160,140 L160,150 C140,144 120,147 100,154 Z"
+        android:fillColor="#F5F5F5"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B0BEC5" />
+
+    <!-- Large Academic Graduation Cap (Mortarboard) on Top -->
+    <!-- Cap Rhombus Top -->
+    <path
+        android:pathData="M100,16 L48,42 L100,62 L152,42 Z"
+        android:fillColor="#0A192F"
+        android:strokeWidth="2"
+        android:strokeColor="#4FC3F7" />
+    <!-- Cap Skull Base Band -->
+    <path
+        android:pathData="M70,49 V66 C70,74 84,80 100,80 C116,80 130,74 130,66 V49 L100,60 Z"
+        android:fillColor="#0D47A1" />
+    <!-- Golden Tassel -->
+    <path
+        android:pathData="M148,43 L154,64 L150,75 L158,75 L154,64"
+        android:fillColor="#FFD54F"
+        android:strokeWidth="1"
+        android:strokeColor="#FFA000" />
+    <path
+        android:pathData="M154,75m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#FFC107" />
+
+    <!-- Bottom Emblem Ribbon / Leaf Crest -->
+    <path
+        android:pathData="M48,162 C70,172 90,174 100,170 C90,162 70,158 48,162 Z"
+        android:fillColor="#43A047" />
+    <path
+        android:pathData="M152,162 C130,172 110,174 100,170 C110,162 130,158 152,162 Z"
+        android:fillColor="#0288D1" />
+    <path
+        android:pathData="M100,170 C96,178 92,185 100,188 C108,185 104,178 100,170 Z"
+        android:fillColor="#66BB6A" />
+
+</vector>
