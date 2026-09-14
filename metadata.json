@@ -1,0 +1,6 @@
+{
+  "name": "Smart Campus",
+  "description": "The right campus information, to the right student, at the right time. Intelligent hierarchical campus notice board.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
