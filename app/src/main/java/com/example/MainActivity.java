@@ -5,9 +5,7 @@ import android.os.Bundle;
 import androidx.activity.ComponentActivity;
 import com.example.ui.AppEntry;
 
-/**
- * Main Activity for Smart Campus Application written in Java.
- */
+
 public class MainActivity extends ComponentActivity {
 
     private static Context appContext;
